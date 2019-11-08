@@ -24,13 +24,13 @@ def count_th(word):
     if i == len(word)-2 and word[i+1] != "h":
       return
 
-    # If letter is "t" and next letter "h", incr count by 1 and index by 2
+    # If letter is "t" and next letter "h", incr count by 1 and incr index by 2
     if word[i] == "t" and word[i+1] == "h":
       count += 1
       i += 2
       get_count()
 
-    # If letter is not "t" increment index by 1
+    # If letter is not "t" and next letter isn't "h" incr index by 1
     else:
       i += 1
       get_count()

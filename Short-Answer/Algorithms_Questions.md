@@ -21,6 +21,7 @@ b)  sum = 0
         sum += 1
 ```
 
+
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -28,6 +29,7 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
+
 
 ## Exercise II
 
